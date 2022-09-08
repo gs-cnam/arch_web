@@ -1,0 +1,36 @@
+body{
+	margin:  0 auto;
+	font-family: ;
+}
+
+form {
+  width: 25%;
+  background-color: #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 12px 12px 2px 1px gray;
+  border-radius: 5%;
+}
+
+.field-wrap {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+}
+.field-wrap input {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.field-wrap select {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.field-wrap label {
+  font-weight: bold;
+}
+label {
+  margin-right: 20px;
+  width: 200px;
+}
